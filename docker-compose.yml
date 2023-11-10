@@ -42,3 +42,7 @@ services:
       - "4442:4442"
       - "4443:4443"
       - "4444:4444"
+
+# 启动3个chrome\1个edge\1个firefox
+# docker-compose up -d --scale chrome=3  
+
